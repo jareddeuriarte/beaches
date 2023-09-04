@@ -16,8 +16,6 @@
 /* Style for the accordion content (hidden by default) */
 .accordion-content {
     display: none;
-    background-color: #f1f1f1;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 /* Style for the flex container inside the accordion */
@@ -27,22 +25,8 @@
 } */
 
 
-
-/* Style for each flex item */
-.flex-item {
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-    text-align: center;
-}
-
-/* Clicked (active) state of the accordion */
-.active {
-    display: block;
-}
-
-
-
 .mydiv {
+
     overflow: auto;
     max-width: 100%;
     display: flex;
@@ -59,3 +43,25 @@
 
 
 }
+
+
+
+/* Style for each flex item */
+.flex-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+/* Clicked (active) state of the accordion */
+.active {
+    display: block;
+    max-width: 75%;
+}
+
+
+
+
+
+
+
